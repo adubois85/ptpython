@@ -262,7 +262,7 @@ def signature_toolbar(python_input):
                 if i == sig_index:
                     # Note: we use `_Param.description` instead of
                     #       `_Param.name`, that way we also get the '*' before args.
-                    append((Signature + ",current-name", str(description)))
+                    append((Signature + ".current-name", str(description)))
                 else:
                     append((Signature, str(description)))
                 append((Signature + ".operator", ", "))
