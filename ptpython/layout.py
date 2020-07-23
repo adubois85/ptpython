@@ -122,7 +122,7 @@ def python_sidebar(python_input: "PythonInput") -> Window:
 
             sel = ",selected" if selected else ""
 
-            tokens.append(("class:sidebar" + sel, " >" if selected else "  "))
+            tokens.append(("class:sidebar", " >" if selected else "  "))
             tokens.append(("class:sidebar.label" + sel, "%-24s" % label, select_item))
             tokens.append(("class:sidebar.status" + sel, " ", select_item))
             tokens.append(("class:sidebar.status" + sel, "%s" % status, goto_next))
