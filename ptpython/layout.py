@@ -736,7 +736,7 @@ class PtPythonLayout:
                             content=HSplit(
                                 [
                                     sidebar,
-                                    Window(style="class:sidebar,separator", height=1),
+                                    Window(style="class:sidebar.separator", height=1),
                                     python_sidebar_navigation(python_input),
                                 ]
                             ),
