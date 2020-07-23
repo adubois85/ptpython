@@ -120,8 +120,9 @@ default_ui_style = {
     #        history.line.selected.current:         'bg:#88ff88 #000000',
     #        history.existing-input:                  '#888888',
     # Help Window.
-    "window-border": "#aaaaaa",
-    "window-title": "bg:#bbbbbb #000000",
+    "frame": "",
+    "frame.border": "#aaaaaa",
+    "frame.label": "bg:#bbbbbb #000000",
     # Meta-enter message.
     "accept-message": "bg:#ffff88 #444444",
     # Exit confirmation.
