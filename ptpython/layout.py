@@ -368,9 +368,9 @@ def status_bar(python_input: "PythonInput") -> Container:
         else:
             result.extend(
                 [
-                    (TB + " class:key", "[F3]", enter_history),
+                    (TB + ".key", "[F3]", enter_history),
                     (TB, " History ", enter_history),
-                    (TB + " class:key", "[F6]", toggle_paste_mode),
+                    (TB + ".key", "[F6]", toggle_paste_mode),
                     (TB, " ", toggle_paste_mode),
                 ]
             )
