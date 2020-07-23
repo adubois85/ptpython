@@ -111,12 +111,12 @@ default_ui_style = {
     "sidebar.key": "bg:#bbddbb #000000 bold",
     "sidebar.description": "bg:#bbbbbb #000000",
     "sidebar.helptext": "bg:#fdf6e3 #000011",
-    #        # Styling for the history layout.
-    #        history.line:                          '',
-    #        history.line.selected:                 'bg:#008800  #000000',
-    #        history.line.current:                  'bg:#ffffff #000000',
-    #        history.line.selected.current:         'bg:#88ff88 #000000',
-    #        history.existing-input:                  '#888888',
+    # # Styling for the history layout.
+    # "history.line": "",
+    # "history.line selected": "bg:#008800  #000000",
+    # "history.line current": "bg:#ffffff #000000",
+    # "history.line selected current": "bg:#88ff88 #000000",
+    # "history.existing-input": "#888888",
     # Help Window.
     "frame": "",
     "frame.border": "#aaaaaa",
