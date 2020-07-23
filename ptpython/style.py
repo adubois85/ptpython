@@ -136,10 +136,10 @@ if is_windows() and not is_conemu_ansi() and not is_windows_vt100_supported():
     default_ui_style.update(
         {
             "sidebar.title": "bg:#00ff00 #ffffff",
-            "exitconfirmation": "bg:#ff4444 #ffffff",
-            "toolbar.validation": "bg:#ff4444 #ffffff",
-            "menu.completions.completion": "bg:#ffffff #000000",
-            "menu.completions.completion.current": "bg:#aaaaaa #000000",
+            "exit-confirmation": "bg:#ff4444 #ffffff",
+            "validation-toolbar": "bg:#ff4444 #ffffff",
+            "completion-menu.completion": "bg:#ffffff #000000",
+            "completion-menu.completion.current": "bg:#aaaaaa #000000",
         }
     )
 
