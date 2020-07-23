@@ -242,7 +242,7 @@ def signature_toolbar(python_input):
                 # See also: https://github.com/davidhalter/jedi/issues/490
                 return []
 
-            append((Signature + ",operator", "("))
+            append((Signature + ".operator", "("))
 
             try:
                 enumerated_params = enumerate(sig.params)
@@ -265,13 +265,13 @@ def signature_toolbar(python_input):
                     append((Signature + ",current-name", str(description)))
                 else:
                     append((Signature, str(description)))
-                append((Signature + ",operator", ", "))
+                append((Signature + ".operator", ", "))
 
             if sig.params:
                 # Pop last comma
                 result.pop()
 
-            append((Signature + ",operator", ")"))
+            append((Signature + ".operator", ")"))
             append((Signature, " "))
         return result
 
