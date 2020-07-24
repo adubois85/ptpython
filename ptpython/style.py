@@ -146,26 +146,24 @@ blue_ui_style = {}
 blue_ui_style.update(default_ui_style)
 # blue_ui_style.update({
 #        # Line numbers.
-#        Token.LineNumber:                             '#aa6666',
-#
+#        "line-number": "#aa6666",
 #        # Highlighting of search matches in document.
-#        Token.SearchMatch:                            '#ffffff bg:#4444aa',
-#        Token.SearchMatch.Current:                    '#ffffff bg:#44aa44',
-#
+#        "search": "#ffffff bg:#4444aa",
+#        "search.current": "#ffffff bg:#44aa44",
 #        # Highlighting of select text in document.
-#        Token.SelectedText:                           '#ffffff bg:#6666aa',
-#
-#        # Completer toolbar.
-#        Token.Toolbar.Completions:                    'bg:#44bbbb #000000',
-#        Token.Toolbar.Completions.Arrow:              'bg:#44bbbb #000000 bold',
-#        Token.Toolbar.Completions.Completion:         'bg:#44bbbb #000000',
-#        Token.Toolbar.Completions.Completion.Current: 'bg:#008888 #ffffff',
-#
-#        # Completer menu.
-#        Token.Menu.Completions.Completion:            'bg:#44bbbb #000000',
-#        Token.Menu.Completions.Completion.Current:    'bg:#008888 #ffffff',
-#        Token.Menu.Completions.Meta:                  'bg:#449999 #000000',
-#        Token.Menu.Completions.Meta.Current:          'bg:#00aaaa #000000',
-#        Token.Menu.Completions.ProgressBar:           'bg:#aaaaaa',
-#        Token.Menu.Completions.ProgressButton:        'bg:#000000',
+#        "selected": "#ffffff bg:#6666aa",
+#        # Completions toolbar.
+#        "completion-toolbar": "bg:#44bbbb #000000",
+#        "completion-toolbar.arrow": "bg:#44bbbb #000000 bold",
+#        "completion-toolbar.completion": "bg:#44bbbb #000000",
+#        "completion-toolbar.completion.current": "bg:#008888 #ffffff",
+#        # Completions menu.
+#        "completion-menu": "bg:#44bbbb #000000",
+#        "completion-menu.completion.current": "bg:#008888 #ffffff",
+#        "completion-menu.meta.completion": "bg:#449999 #000000",
+#        "completion-menu.meta.completion.current": "bg:#00aaaa #000000",
+#        "completion-menu.multi-column-meta": "bg:#00aaaa #000000",
+#        "completion-menu scrollbar": "bg:#aaaaaa",
+#        "completion-menu scrollbar.background": "bg:#aaaaaa",
+#        "completion-menu scrollbar.button": "bg:#000000",
 # })
